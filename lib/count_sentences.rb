@@ -4,7 +4,7 @@ class String
   end
 
   def question?
-    self.end_with?("?")
+    self.end_with?("?") #if else is not needed, because method itself is true or false
   end
 
   def exclamation?
@@ -12,6 +12,6 @@ class String
   end
 
   def count_sentences
-  self.split(/\b[.!?]{1,}/).count
+  self.split(/\b[.!?]{1,}/).count #practicethismore
   end
 end
